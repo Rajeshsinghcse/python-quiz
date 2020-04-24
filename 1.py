@@ -6,9 +6,9 @@
   
  correct answer:A i.e True
  
-/* 2.Students in a class receive their grades as Pass/Fail. Scores of 60 or more (out of 100) mean that the grade is "Pass". 
+// 2.Students in a class receive their grades as Pass/Fail. Scores of 60 or more (out of 100) mean that the grade is "Pass". 
   For lower scores, the grade is "Fail". In addition, scores above 95 (not included) are graded as "Top Score".
-  Fill in this function so that it returns the proper grade.*/
+  Fill in this function so that it returns the proper grade.
   def exam_grade(score): 
 	if score>95:
 		grade = "Top Score"
